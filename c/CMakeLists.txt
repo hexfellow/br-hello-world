@@ -5,3 +5,4 @@ set(CMAKE_C_STANDARD 11)
 set(CMAKE_C_STANDARD_REQUIRED ON)
 
 add_executable(hello-world-c main.c)
+install(TARGETS hello-world-c RUNTIME DESTINATION bin)
